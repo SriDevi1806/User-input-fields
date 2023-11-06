@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User input</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Edit Profile</h1>
+        <p>
+            On this page you can customize your profile. Please remember any changes can take up to 2 hours to update publicly.
+        </p>
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" value="dcode71" autofocus data-autosave-url="http://localhost:3000/save-profile">
+        <label for="biography">Your Bio</label>
+        <textarea name="biography" id="biography" data-autosave-url="http://localhost:3000/save-profile">I make web development videos on YouTube, and I think pure JavaScript is the best way to learn.</textarea>
+        <div class="autosave-message"></div>
+    </div>
+
+
+    <script src="dada.js"></script>
+</body>
+</html>
